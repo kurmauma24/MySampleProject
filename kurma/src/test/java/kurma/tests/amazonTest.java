@@ -38,6 +38,7 @@ public class amazonTest extends Amazon{ //inheritance
 		AmazonPage clickSearch = new AmazonPage(driver);
 		clickSearch.clickSearchIcon();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		System.out.println("Second Commit");
         ScreenshotUtil.captureScreenshot(driver);
 	}
 
