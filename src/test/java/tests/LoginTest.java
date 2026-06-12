@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest {
 		CandidateDetails cd = new CandidateDetails(driver);
 
 		// First flow - Career Portal
-	//	driver.get(cr.getProperty("carrerportalurl"));
+		driver.get(cr.getProperty("carrerportalurl"));
 		// cp.clickLogin();
 //		cp.emailEnter();
 //		cp.enterPassword();
